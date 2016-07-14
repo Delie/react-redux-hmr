@@ -1,4 +1,5 @@
 #react-redux-hmr .gitignore file
+**/.git/
 node_modules/
 wwwroot/js/app.*
 **/.vs/
