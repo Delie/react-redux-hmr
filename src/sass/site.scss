@@ -1,0 +1,53 @@
+/* bootstrap overrides */
+$brand-primary: #5bc0de !default; // #337ab7
+$brand-success: #5cb85c !default;
+$brand-info: #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger: #d9534f !default;
+$brand-featureBg: #eee !default;
+$contentPagePaddingTop: 75px;
+
+// imports
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+body {
+	background: #fff;
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	padding: 10px;
+	background: #222;
+	color: #555;
+}
+
+#headerText {
+	font-size: 40px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#header a {
+	cursor: pointer;
+}
+
+#pageContainer {
+	padding: 20px;
+	min-height:300px;
+	background:#ccc;
+	font-size:1rem;
+}
+
+#footer {
+	padding: 10px;
+	background: #222;
+	color: #fff;
+}
+
+#reduxInfo {
+	font-size: 0.9rem;
+	color: #222;
+	background: #aaa;
+	padding:5px;
+}
